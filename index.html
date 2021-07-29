@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="intro">
+            <h1>Welcome to my new Game</h1>
+        </div>
+        <div id="winingSide">
+            <p id="score">Give a winningscore number: </p><input type="text" id="inputWiningNumber">
+            <p id="winningScore">Winning score is : <span id="winingScore">20</span></p>
+            <input type="button" value="Reset" id="reset">
+            <!-- <button id="reset" type="button" class="btn btn-outline-primary">Reset</button> -->    
+            <p id="win"></p>
+        </div>
+        <div>
+        </div>
+        <div id="playerOption" class="float-container">
+                <div id="player1Side" class="float-child">
+                    <h4 id="">click the button and generate a number for you.</h4>
+                    <input type="button" value="player 1" id="player1btn" >   <h3>Your random number is : <span id="showInputPlayer1"> </span></h3>
+                    <!-- <input type="text" id="showInputPlayer1"> -->
+                    <h4>Player 1 total score is: <span id="increasedNumberPlayer1"></span> </h4>
+                </div>
+                <div id="player2Side" class="float-child">
+                    <h4 id="">click the button and generate a number for you.</h4>
+                    <input type="button" value="player 2" id="player2btn" >   <h3>Your random number is : <span id="showInputPlayer2"> </span></h3>
+                    <!-- <input type="text" id="showInputPlayer2"> -->
+                    <h4>Player 2 total score is: <span id="increasedNumberPlayer2"></span></h4>        
+                </div>
+        </div>
+    
+        
+                    
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

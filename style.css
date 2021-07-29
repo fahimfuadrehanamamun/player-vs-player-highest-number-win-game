@@ -1,0 +1,43 @@
+body{
+    margin: 5%;
+}
+#container{
+    margin-left: 5%;
+    padding: 5px;
+    /* background-color: blue; */
+    background-color: aqua
+}
+#intro{
+    margin-left:25%; 
+    color: #fff
+}
+
+.float-container {
+    display: flex;
+    border: 3px solid #fff;
+    padding: 20px;
+    /* width: 100%; */
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+}  
+#winingSide{
+    margin-left: 30%;
+}
+#reset{
+    margin-left: 7%;
+}
+#winningScore{
+    margin-left: 2%;
+    color: crimson;
+}
+input{
+    background-color: coral
+}
+#score{
+    color: mediumorchid
+}
